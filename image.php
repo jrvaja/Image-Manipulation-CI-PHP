@@ -28,13 +28,16 @@ function testimg(){
             // $postData['vProfilePicName'] = $file_name;
             $postData['temporary_file'] = $file_name;
             $mypath=IMGROOTER.$file_name;
+            /*Create Thumb*/
             $hasTh=$this->make_thumb($mypath);
 
             if($hasTh!=''){
             	$final=$hasTh.$file_name;
+            	/*Create Rounded Thumb*/
             	$roundImgPath=$this->createRounder($final,$file_name);
             	$filename_result=IMGROOTER."thumb/".$file_name;
-            	$this->merge($roundImgPath, $final, $filename_result);
+            	/*Merge Two Images*/
+            	//$this->merge($roundImgPath, $final, $filename_result);
             }
             // unlink($mypath);
         }
