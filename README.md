@@ -24,5 +24,5 @@ Just few things to consider before this implementation:
 That's it.
 
 Note: 
-I have made these function for CodeIgniter.But other than "testimg" function work for all other framework(or PHP).
+I have made these function for CodeIgniter.But other than "testimg" function works for all other framework(or PHP).
 
