@@ -1,0 +1,2 @@
+1. http://stackoverflow.com/questions/7203160/php-gd-use-one-image-to-mask-another-image-including-transparency
+2. http://stackoverflow.com/questions/2223437/crop-image-into-circle-and-add-border
